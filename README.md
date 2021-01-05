@@ -1,4 +1,4 @@
-# fastbuy-vue
+# 基于微服务的商城秒杀系统的设计用户实现
 
 ## Project setup
 ```

@@ -5,6 +5,13 @@
     <router-view/>
   </div>
 </template>
+<style lang="scss">
+*{
+  padding: 0;
+  margin: 0;
+}
+</style>
+
 <script>
 import vHeader from '@/components/common/header'
 import vFooter from '@/components/common/footer'

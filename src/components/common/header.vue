@@ -16,7 +16,7 @@
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #efefef;
-    padding: 0 200px;
+    padding: 0 300px;
     line-height: 40px;
     box-sizing: border-box;
 

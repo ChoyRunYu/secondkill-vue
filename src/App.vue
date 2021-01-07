@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <v-header></v-header>
-    <v-footer></v-footer>
     <router-view/>
+    <v-footer></v-footer>
   </div>
 </template>
 <style lang="scss">

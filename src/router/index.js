@@ -8,6 +8,7 @@ const routes = [
   {
     path: '/detail',
     name: 'detail',
+    title: '宝贝详情',
     component: detail
   }
   // {

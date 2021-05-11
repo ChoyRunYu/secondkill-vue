@@ -184,6 +184,7 @@ export default {
           (new Date(this.endTime).getTime() - now.getTime()) / 1000
         );
         this.start = this.msStock > 0 ? 1 : 2;
+        this.btnText = this.msStock > 0 ? '立即抢购' : '库存不足，再等等...'
       } else {
         this.start = 3;
         this.btnText = '活动结束'

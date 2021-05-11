@@ -4,6 +4,7 @@
       <div class="header-left">基于微服务的商城秒杀系统</div>
       <div class="header-right">
         <ul class="header-right-nav">
+          <li>{{ username }}</li>
           <li><router-link to="/">首页</router-link> </li>
           <li><router-link to="/myorder">我的订单</router-link></li>
           <!-- <li>我的购物车</li> -->
@@ -26,6 +27,9 @@ export default {
   computed:{
     isLogin: function (){
       return this.$store.getters.token !== undefined
+    },
+    username: function(){
+      return this.$store.getters.username
     }
   },
   methods: {

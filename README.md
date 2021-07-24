@@ -45,7 +45,7 @@
 │	├── views						主要页面目录
 │	├── App.vue						项目入口文件
 │	├── main.js						项目核心文件
-│	├──	permission,js				项目权限文件
+│	├── permission,js				项目权限文件
 │ 	└── setting.js					项目配置文件
 ├── .env
 ├── .eslistrc.js

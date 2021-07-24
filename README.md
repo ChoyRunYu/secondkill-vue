@@ -1,12 +1,13 @@
 # 微服务秒杀系统 - 前台页面
 
 <p align="center"> 
- <img src="https://img.shields.io/badge/Vue%20-2.6.11-green.svg" alt="Build Status"/>
- <img src="https://img.shields.io/badge/Element%20Ui%20-2.15.0-blue.svg" alt="es"/>
- <img src="https://img.shields.io/badge/Vue%20Router%20-3.2.0-blue.svg" alt="es"/>
- <img src="https://img.shields.io/badge/Vuex-3.4.0-green.svg" alt="sb">
- <img src="https://img.shields.io/badge/Axios-0.21.1-blue.svg" alt="sc">
+ <img src="https://img.shields.io/badge/Vue%20-2.6.11-green.svg" alt="vue"/>
+ <img src="https://img.shields.io/badge/Element%20Ui%20-2.15.0-blue.svg" alt="elementui"/>
+ <img src="https://img.shields.io/badge/Vue%20Router%20-3.2.0-blue.svg" alt="vuerouter"/>
+ <img src="https://img.shields.io/badge/Vuex-3.4.0-green.svg" alt="vuex">
+ <img src="https://img.shields.io/badge/Axios-0.21.1-blue.svg" alt="axios">
 </p>
+
 
 ## 简介
 

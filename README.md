@@ -33,20 +33,20 @@
 
 ```
 ├── public						公共目录
-│	├── favicon.ico					favicon图标
-│	└── index.html					首页入口文件
+│  ├── favicon.ico					favicon图标
+│  └── index.html					首页入口文件
 ├── src							源代码目录
-│	├── api							api请求接口目录
-│	├── assets						静态文件目录
-│	├── components					组件目录
-│	├── router						路由目录
-│	├── store						Vuex目录
-│	├── utils						工具类目录
-│	├── views						主要页面目录
-│	├── App.vue						项目入口文件
-│	├── main.js						项目核心文件
-│	├── permission.js				项目权限文件
-│ 	└── setting.js					项目配置文件
+│  ├── api							api请求接口目录
+│  ├── assets						静态文件目录
+│  ├── components					组件目录
+│  ├── router						路由目录
+│  ├── store						Vuex目录
+│  ├── utils						工具类目录
+│  ├── views						主要页面目录
+│  ├── App.vue						项目入口文件
+│  ├── main.js						项目核心文件
+│  ├── permission.js				项目权限文件
+│  └── setting.js					项目配置文件
 ├── .env
 ├── .eslistrc.js
 ├── .browserslistrc

@@ -27,7 +27,7 @@
               ref="password"
               prefix-icon="el-icon-lock"
               v-model="registerForm.password"
-              placeholder="帐号"
+              placeholder="密码"
               name="password"
               type="password"
               tabindex="1"

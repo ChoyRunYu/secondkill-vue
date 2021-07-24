@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        1740706140-蔡润堉 | 版权所有 | 
+        Choy RunYu | 版权所有 | 
         <span class="title">基于微服务的商城秒杀系统的设计与实现</span>
     </div>
 </template>

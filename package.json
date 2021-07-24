@@ -1,6 +1,8 @@
 {
   "name": "secondkill-vue",
   "version": "1.1.0",
+  "author": "Choy Runyu<1063978024@qq.com>",
+  "description": "微服务秒杀系统前台前端，使用vue-cli开发",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

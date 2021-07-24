@@ -10,13 +10,13 @@
 
 ## 简介
 
-微服务秒杀系统采用了前后端分离的模式，前端采用了Vue全家桶 + Element-Ui组件，后端采用Spring Cloud全家桶开发而成。此项目是本秒杀系统的前台前端页面。
+微服务秒杀系统采用了前后端分离的模式，前端采用了Vue全家桶 + Element-Ui组件，后端采用Spring Cloud全家桶开发而成。此项目是本秒杀系统的前台前端页面，使用vue-cli进行开发。
 
 
 ## 项目链接
 
-- [后台管理前端项目](https://github.com/ChoyRunYu/secondkill-admin)
-- [微服务后端](https://github.com/ChoyRunYu/secondkill)
+- [秒杀后台管理前端](https://github.com/ChoyRunYu/secondkill-admin)
+- [微服务秒杀系统后端](https://github.com/ChoyRunYu/secondkill)
 
 ## 相关技术
 
@@ -67,17 +67,22 @@ cd secondkill-vue
 # 安装依赖
 npm install
 
+# 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
+npm install --registry=https://registry.npm.taobao.org
+
 # 启动项目
 npm run serve
+```
 
+## 构建&代码格式检查
+
+```
 # 构建项目
 npm run build
 
 # 代码格式检查
 npm run lint
 ```
-
-
 
 ## 系统截图
 

@@ -10,3 +10,7 @@ services:
         container_name: secondkill-vue
         external_links: 
             - secondkill-zuul
+
+network:
+    secondkill_default:
+        external: true   

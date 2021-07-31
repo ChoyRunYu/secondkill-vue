@@ -7,7 +7,7 @@ import request from '@/utils/request'
  */
 export function checkStock(msGoodsId){
   return request({
-    url: '/order/checkStock/' + msGoodsId,
+    url: '/api/order/checkStock/' + msGoodsId,
     method: 'get'
   })
 }
@@ -18,7 +18,7 @@ export function checkStock(msGoodsId){
  */
 export function buy(msGoodsId){
   return request({
-    url: '/order/buy/' + msGoodsId,
+    url: '/api/order/buy/' + msGoodsId,
     method: 'get'
   })
 }
@@ -31,7 +31,7 @@ export function buy(msGoodsId){
  */
 export function createOrder(msGoodsId){
   return request({
-    url: '/order/createOrder/' + msGoodsId,
+    url: '/api/order/createOrder/' + msGoodsId,
     method: 'post'
   })
 }
@@ -43,7 +43,7 @@ export function createOrder(msGoodsId){
  */
 export function getOrderById(orderId){
   return request({
-    url: '/order/getById/' + orderId,
+    url: '/api/order/getById/' + orderId,
     method: 'get'
   })
 }
@@ -54,7 +54,7 @@ export function getOrderById(orderId){
  */
 export function pay(orderId){
   return request({
-    url: '/order/payOrder/' + orderId,
+    url: '/api/order/payOrder/' + orderId,
     method: 'post'
   })
 }
@@ -65,7 +65,7 @@ export function pay(orderId){
  */
  export function listOrderByUser() {
   return request({
-    url: '/order/listOrder',
+    url: '/api/order/listOrder',
     method: 'get'
   })
 }

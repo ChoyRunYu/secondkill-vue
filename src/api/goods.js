@@ -5,7 +5,7 @@ import request from '@/utils/request'
  */
 export function getMsGoodsList(){
     return request({
-        url: '/goods/listMsGoods',
+        url: '/api/goods/listMsGoods',
         method: 'get'
     })
 }
@@ -15,7 +15,7 @@ export function getMsGoodsList(){
  */
 export function getMsGoodsDetail(msGoodsId){
     return request({
-        url: '/goods/msGoods/detail/' + msGoodsId,
+        url: '/api/goods/msGoods/detail/' + msGoodsId,
         method: 'get'
     })
 }
@@ -25,7 +25,7 @@ export function getMsGoodsDetail(msGoodsId){
  */
  export function getMsGoodsListSearch(keyword){
     return request({
-        url: '/goods/listMsGoods/' + keyword,
+        url: '/api/goods/listMsGoods/' + keyword,
         method: 'get'
     })
 }

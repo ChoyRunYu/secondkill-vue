@@ -7,12 +7,12 @@ services:
         container_name: secondkill-vue
         restart: always
         ports: 
-            - 80:8080
+            - 80:80
         networks: 
             - secondkill_default
         external_links: 
             - secondkill-zuul
 
-network:
+networks:
     secondkill_default:
         external: true   

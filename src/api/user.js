@@ -6,7 +6,7 @@ import md5 from 'md5'
  */
 export function login(data) {
   return request({
-    url: '/auth/user',
+    url: '/api/auth/user',
     method: 'post',
     data
   })
@@ -18,7 +18,7 @@ export function login(data) {
  */
 export function getInfo(){
   return request({
-    url: '/user/info',
+    url: '/api/user/info',
     method: 'get'
   })
 }
@@ -30,7 +30,7 @@ export function getInfo(){
  */
 export function logout(){
   return request({
-    url: '/auth/logout',
+    url: '/api/auth/logout',
     method: 'post'
   })
 }
@@ -43,7 +43,7 @@ export function logout(){
  */
 export function checkUsername(username){
   return request({
-    url: '/user/check/' + username,
+    url: '/api/user/check/' + username,
     method: 'get'
   })
 }
@@ -56,7 +56,7 @@ export function checkUsername(username){
  */
 export function register(username, password){
   return request({
-    url: '/user/register',
+    url: '/api/user/register',
     method: 'post',
     data: { username: username, password: md5(password) }
   })

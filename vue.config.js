@@ -1,5 +1,5 @@
 //api 接口
-const url = 'http://secondkill-zuul:8000/api'
+const url = 'http://secondkill-zuul:8000'
 module.exports = {
     // 配置转发代理
     devServer: {

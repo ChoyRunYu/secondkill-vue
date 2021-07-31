@@ -1,0 +1,12 @@
+version: '3'
+services: 
+    secondkill-vue:
+        build: 
+            context: .
+        restart: always
+        ports: 
+            - 80:8080
+        image: secondkill-vue
+        container_name: secondkill-vue
+        external_links: 
+            - secondkill-zuul

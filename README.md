@@ -11,13 +11,15 @@
 
 ## 简介
 
-微服务秒杀系统采用了前后端分离的模式，前端采用了Vue全家桶 + Element-Ui组件，后端采用Spring Cloud全家桶开发而成。此项目是本秒杀系统的前台前端页面，使用vue-cli进行开发。
+微服务秒杀系统采用了前后端分离的模式，前端采用了Vue全家桶 + Element-Ui组件，后端采用Spring Cloud微服务框架开发而成。此项目是本秒杀系统的前台前端页面，使用vue-cli进行开发。
 
 
 ## 项目链接
 
-- [秒杀后台管理前端](https://github.com/ChoyRunYu/secondkill-admin)
-- [微服务秒杀系统后端](https://github.com/ChoyRunYu/secondkill)
+| 名称               | github                                        | gitee                                        |
+| ------------------ | --------------------------------------------- | -------------------------------------------- |
+| 后台管理前端       | https://github.com/ChoyRunYu/secondkill-admin | https://gitee.com/Choyrunyu/secondkill-admin |
+| 微服务秒杀系统后端 | https://github.com/ChoyRunYu/secondkill       | https://gitee.com/Choyrunyu/secondkill       |
 
 ## 相关技术
 
@@ -56,7 +58,9 @@
 └── vue.config.js
 ```
 
-## 跑起来
+## 快速开始
+
+### 本地开发
 
 ```
 # 克隆项目
@@ -75,7 +79,20 @@ npm install --registry=https://registry.npm.taobao.org
 npm run serve
 ```
 
-## 构建&代码格式检查
+### docker部署
+
+```
+# 克隆项目
+git clone https://github.com/ChoyRunYu/secondkill-vue.git
+
+# 安装依赖、打包构建
+cd secondkill-vue && npm install && npm run build:docker
+
+# 运行docker-compose
+cd docker && docker-compose up -d
+```
+
+### 构建&代码格式检查
 
 ```
 # 构建项目
